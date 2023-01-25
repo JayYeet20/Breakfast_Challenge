@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Include Bootstrap | Docs: https://getbootstrap.com/docs/5.0/ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Include our JS file -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>What'd I eat for breakfast?</h1>
+    </div>
+    <!--Add section input and buttons-->
+    <div>
+        <!--a Div for input and buttons-->
+        <div>
+            <div>
+                <h3>Add a food</h3>
+                <div>Item Name: <input type="text" id="itemname" /></div>
+                <button type="button" id="add">Add</button>
+                <button type="button" id="reset">Reset</button>
+            </div>
+        </div>
+        <!--a div to display output-->
+        <br>
+        <div>
+            <div>
+                <h3>Foods</h3>
+                <div id="tableFormat">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+</body>
+
+</html>
